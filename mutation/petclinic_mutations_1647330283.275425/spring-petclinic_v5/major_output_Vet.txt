@@ -1,0 +1,148 @@
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:24: error: package javax.persistence does not exist
+import javax.persistence.Entity;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:25: error: package javax.persistence does not exist
+import javax.persistence.FetchType;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:26: error: package javax.persistence does not exist
+import javax.persistence.JoinColumn;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:27: error: package javax.persistence does not exist
+import javax.persistence.JoinTable;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:28: error: package javax.persistence does not exist
+import javax.persistence.ManyToMany;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:29: error: package javax.persistence does not exist
+import javax.persistence.Table;
+                        ^
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/bind/annotation/XmlElement.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:32: error: package org.springframework.beans.support does not exist
+import org.springframework.beans.support.MutableSortDefinition;
+                                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:33: error: package org.springframework.beans.support does not exist
+import org.springframework.beans.support.PropertyComparator;
+                                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:34: error: package org.springframework.samples.petclinic.model does not exist
+import org.springframework.samples.petclinic.model.Person;
+                                                  ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:46: error: cannot find symbol
+public class Vet extends Person {
+                         ^
+  symbol: class Person
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:44: error: cannot find symbol
+@Entity
+ ^
+  symbol: class Entity
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:45: error: cannot find symbol
+@Table(name = "vets")
+ ^
+  symbol: class Table
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:51: error: cannot find symbol
+	private Set<Specialty> specialties;
+	            ^
+  symbol:   class Specialty
+  location: class Vet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:53: error: cannot find symbol
+	protected Set<Specialty> getSpecialtiesInternal() {
+	              ^
+  symbol:   class Specialty
+  location: class Vet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:60: error: cannot find symbol
+	protected void setSpecialtiesInternal(Set<Specialty> specialties) {
+	                                          ^
+  symbol:   class Specialty
+  location: class Vet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:65: error: cannot find symbol
+	public List<Specialty> getSpecialties() {
+	            ^
+  symbol:   class Specialty
+  location: class Vet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:75: error: cannot find symbol
+	public void addSpecialty(Specialty specialty) {
+	                         ^
+  symbol:   class Specialty
+  location: class Vet
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collections.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/HashSet.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/javax/xml/bind/annotation/XmlElement.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:48: error: cannot find symbol
+	@ManyToMany(fetch = FetchType.EAGER)
+	 ^
+  symbol:   class ManyToMany
+  location: class Vet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:49: error: cannot find symbol
+	@JoinTable(name = "vet_specialties", joinColumns = @JoinColumn(name = "vet_id"),
+	 ^
+  symbol:   class JoinTable
+  location: class Vet
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:55: error: unexpected type
+			this.specialties = new HashSet<>();
+			                              ^
+  required: class
+  found:    <E>HashSet<E>
+  where E is a type-variable:
+    E extends Object declared in class HashSet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:66: error: cannot find symbol
+		List<Specialty> sortedSpecs = new ArrayList<>(getSpecialtiesInternal());
+		     ^
+  symbol:   class Specialty
+  location: class Vet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:66: error: unexpected type
+		List<Specialty> sortedSpecs = new ArrayList<>(getSpecialtiesInternal());
+		                                           ^
+  required: class
+  found:    <E>ArrayList<E>
+  where E is a type-variable:
+    E extends Object declared in class ArrayList
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:67: error: cannot find symbol
+		PropertyComparator.sort(sortedSpecs, new MutableSortDefinition("name", true, true));
+		                                         ^
+  symbol:   class MutableSortDefinition
+  location: class Vet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/Vet.java:67: error: cannot find symbol
+		PropertyComparator.sort(sortedSpecs, new MutableSortDefinition("name", true, true));
+		^
+  symbol:   variable PropertyComparator
+  location: class Vet
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'

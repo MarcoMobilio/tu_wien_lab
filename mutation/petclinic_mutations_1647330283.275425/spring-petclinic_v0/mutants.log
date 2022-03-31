@@ -1,0 +1,1 @@
+1:STD:<CALL>:<NO-OP>:org.springframework.samples.petclinic.PetClinicApplication@main(java.lang.String[]):32:SpringApplication.run(PetClinicApplication.class, args) |==> <NO-OP>

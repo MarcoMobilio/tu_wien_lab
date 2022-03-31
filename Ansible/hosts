@@ -1,0 +1,7 @@
+[Docker]
+docker_host ansible_connection=local
+
+[k8s]
+k1 ansible_host=149.132.176.66 ansible_port=2272 ansible_user=kralizec ansible_password=j8muol
+
+

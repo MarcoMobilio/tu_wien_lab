@@ -1,0 +1,2 @@
+1:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.springframework.samples.petclinic.vet.Vets@getVetList():36:vets == null |==> false
+2:STD:<ASSIGN>:<NO-OP>:org.springframework.samples.petclinic.vet.Vets@getVetList():37:vets = new ArrayList<>() |==> <NO-OP>

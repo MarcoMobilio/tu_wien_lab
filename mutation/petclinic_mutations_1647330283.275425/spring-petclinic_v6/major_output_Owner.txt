@@ -1,0 +1,239 @@
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:21: error: package javax.persistence does not exist
+import javax.persistence.CascadeType;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:22: error: package javax.persistence does not exist
+import javax.persistence.Column;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:23: error: package javax.persistence does not exist
+import javax.persistence.Entity;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:24: error: package javax.persistence does not exist
+import javax.persistence.FetchType;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:25: error: package javax.persistence does not exist
+import javax.persistence.JoinColumn;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:26: error: package javax.persistence does not exist
+import javax.persistence.OneToMany;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:27: error: package javax.persistence does not exist
+import javax.persistence.OrderBy;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:28: error: package javax.persistence does not exist
+import javax.persistence.Table;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:29: error: package javax.validation.constraints does not exist
+import javax.validation.constraints.Digits;
+                                   ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:30: error: package javax.validation.constraints does not exist
+import javax.validation.constraints.NotEmpty;
+                                   ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:32: error: package org.springframework.core.style does not exist
+import org.springframework.core.style.ToStringCreator;
+                                     ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:33: error: package org.springframework.samples.petclinic.model does not exist
+import org.springframework.samples.petclinic.model.Person;
+                                                  ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:34: error: package org.springframework.util does not exist
+import org.springframework.util.Assert;
+                               ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:47: error: cannot find symbol
+public class Owner extends Person {
+                           ^
+  symbol: class Person
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:45: error: cannot find symbol
+@Entity
+ ^
+  symbol: class Entity
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:46: error: cannot find symbol
+@Table(name = "owners")
+ ^
+  symbol: class Table
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:65: error: cannot find symbol
+	private List<Pet> pets = new ArrayList<>();
+	             ^
+  symbol:   class Pet
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:91: error: cannot find symbol
+	public List<Pet> getPets() {
+	            ^
+  symbol:   class Pet
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:95: error: cannot find symbol
+	public void addPet(Pet pet) {
+	                   ^
+  symbol:   class Pet
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:106: error: cannot find symbol
+	public Pet getPet(String name) {
+	       ^
+  symbol:   class Pet
+  location: class Owner
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:115: error: cannot find symbol
+	public Pet getPet(Integer id) {
+	       ^
+  symbol:   class Pet
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:132: error: cannot find symbol
+	public Pet getPet(String name, boolean ignoreNew) {
+	       ^
+  symbol:   class Pet
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:159: error: cannot find symbol
+	public Owner addVisit(Integer petId, Visit visit) {
+	                                     ^
+  symbol:   class Visit
+  location: class Owner
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/ArrayList.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:49: error: cannot find symbol
+	@Column(name = "address")
+	 ^
+  symbol:   class Column
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:50: error: cannot find symbol
+	@NotEmpty
+	 ^
+  symbol:   class NotEmpty
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:53: error: cannot find symbol
+	@Column(name = "city")
+	 ^
+  symbol:   class Column
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:54: error: cannot find symbol
+	@NotEmpty
+	 ^
+  symbol:   class NotEmpty
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:57: error: cannot find symbol
+	@Column(name = "telephone")
+	 ^
+  symbol:   class Column
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:58: error: cannot find symbol
+	@NotEmpty
+	 ^
+  symbol:   class NotEmpty
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:59: error: cannot find symbol
+	@Digits(fraction = 0, integer = 10)
+	 ^
+  symbol:   class Digits
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:62: error: cannot find symbol
+	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	 ^
+  symbol:   class OneToMany
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:63: error: cannot find symbol
+	@JoinColumn(name = "owner_id")
+	 ^
+  symbol:   class JoinColumn
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:64: error: cannot find symbol
+	@OrderBy("name")
+	 ^
+  symbol:   class OrderBy
+  location: class Owner
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Override.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Override.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Annotation.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Target.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/ElementType.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/Retention.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/annotation/RetentionPolicy.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:65: error: unexpected type
+	private List<Pet> pets = new ArrayList<>();
+	                                      ^
+  required: class
+  found:    <E>ArrayList<E>
+  where E is a type-variable:
+    E extends Object declared in class ArrayList
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:116: error: cannot find symbol
+		for (Pet pet : getPets()) {
+		     ^
+  symbol:   class Pet
+  location: class Owner
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Number.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Number.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:134: error: cannot find symbol
+		for (Pet pet : getPets()) {
+		     ^
+  symbol:   class Pet
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:149: error: cannot find symbol
+				.append("lastName", this.getLastName()).append("firstName", this.getFirstName())
+				                                                                ^
+  symbol: method getFirstName()
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:149: error: cannot find symbol
+				.append("lastName", this.getLastName()).append("firstName", this.getFirstName())
+				                        ^
+  symbol: method getLastName()
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:148: error: cannot find symbol
+		return new ToStringCreator(this).append("id", this.getId()).append("new", this.isNew())
+		                                                                              ^
+  symbol: method isNew()
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:148: error: cannot find symbol
+		return new ToStringCreator(this).append("id", this.getId()).append("new", this.isNew())
+		                                                  ^
+  symbol: method getId()
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:148: error: cannot find symbol
+		return new ToStringCreator(this).append("id", this.getId()).append("new", this.isNew())
+		           ^
+  symbol:   class ToStringCreator
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:146: error: method does not override or implement a method from a supertype
+	@Override
+	^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:161: error: cannot find symbol
+		Assert.notNull(petId, "Pet identifier must not be null!");
+		^
+  symbol:   variable Assert
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:162: error: cannot find symbol
+		Assert.notNull(visit, "Visit must not be null!");
+		^
+  symbol:   variable Assert
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:164: error: cannot find symbol
+		Pet pet = getPet(petId);
+		^
+  symbol:   class Pet
+  location: class Owner
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Owner.java:166: error: cannot find symbol
+		Assert.notNull(pet, "Invalid Pet identifier!");
+		^
+  symbol:   variable Assert
+  location: class Owner

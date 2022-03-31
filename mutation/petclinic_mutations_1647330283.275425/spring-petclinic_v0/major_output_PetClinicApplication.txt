@@ -1,0 +1,60 @@
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java:19: error: package org.springframework.boot does not exist
+import org.springframework.boot.SpringApplication;
+                               ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java:20: error: package org.springframework.boot.autoconfigure does not exist
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+                                             ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java:28: error: cannot find symbol
+@SpringBootApplication
+ ^
+  symbol: class SpringBootApplication
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java:32: error: cannot find symbol
+		SpringApplication.run(PetClinicApplication.class, args);
+		^
+  symbol:   variable SpringApplication
+  location: class PetClinicApplication
+#Generated Mutants: 1 (11 ms)
+4 errors
+8 warnings
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java:19: error: package org.springframework.boot does not exist
+import org.springframework.boot.SpringApplication;
+                               ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java:20: error: package org.springframework.boot.autoconfigure does not exist
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+                                             ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java:28: error: cannot find symbol
+@SpringBootApplication
+ ^
+  symbol: class SpringBootApplication
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Class.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/PetClinicApplication.java:32: error: cannot find symbol
+		SpringApplication.run(PetClinicApplication.class, args);
+		^
+  symbol:   variable SpringApplication
+  location: class PetClinicApplication
+#Generated Mutants: 1 (11 ms)
+4 errors
+8 warnings

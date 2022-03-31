@@ -1,0 +1,28 @@
+1:AOR:+(int,int):%(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@sum(int,int):7:a + b |==> a % b
+2:AOR:+(int,int):*(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@sum(int,int):7:a + b |==> a * b
+3:AOR:+(int,int):-(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@sum(int,int):7:a + b |==> a - b
+4:AOR:+(int,int):/(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@sum(int,int):7:a + b |==> a / b
+5:AOR:-(int,int):%(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@subtraction(int,int):12:a - b |==> a % b
+6:AOR:-(int,int):*(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@subtraction(int,int):12:a - b |==> a * b
+7:AOR:-(int,int):+(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@subtraction(int,int):12:a - b |==> a + b
+8:AOR:-(int,int):/(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@subtraction(int,int):12:a - b |==> a / b
+9:AOR:*(int,int):%(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@multiplication(int,int):17:a * b |==> a % b
+10:AOR:*(int,int):+(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@multiplication(int,int):17:a * b |==> a + b
+11:AOR:*(int,int):-(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@multiplication(int,int):17:a * b |==> a - b
+12:AOR:*(int,int):/(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@multiplication(int,int):17:a * b |==> a / b
+13:LVR:0:POS:com.javacodegeeks.examples.junitmavenexample.Calculator@divison(int,int):22:0 |==> 1
+14:LVR:0:NEG:com.javacodegeeks.examples.junitmavenexample.Calculator@divison(int,int):22:0 |==> -1
+15:ROR:==(int,int):<=(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@divison(int,int):22:b == 0 |==> b <= 0
+16:ROR:==(int,int):>=(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@divison(int,int):22:b == 0 |==> b >= 0
+17:ROR:==(int,int):FALSE(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@divison(int,int):22:b == 0 |==> false
+18:AOR:/(int,int):%(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@divison(int,int):26:a / b |==> a % b
+19:AOR:/(int,int):*(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@divison(int,int):26:a / b |==> a * b
+20:AOR:/(int,int):+(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@divison(int,int):26:a / b |==> a + b
+21:AOR:/(int,int):-(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@divison(int,int):26:a / b |==> a - b
+22:LVR:FALSE:TRUE:com.javacodegeeks.examples.junitmavenexample.Calculator@equalIntegers(int,int):31:false |==> true
+23:ROR:==(int,int):<=(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@equalIntegers(int,int):33:a == b |==> a <= b
+24:ROR:==(int,int):>=(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@equalIntegers(int,int):33:a == b |==> a >= b
+25:ROR:==(int,int):FALSE(int,int):com.javacodegeeks.examples.junitmavenexample.Calculator@equalIntegers(int,int):33:a == b |==> false
+26:LVR:TRUE:FALSE:com.javacodegeeks.examples.junitmavenexample.Calculator@equalIntegers(int,int):34:true |==> false
+27:STD:<ASSIGN>:<NO-OP>:com.javacodegeeks.examples.junitmavenexample.Calculator@equalIntegers(int,int):34:result = true |==> <NO-OP>
+28:EVR:<IDENTIFIER(boolean)>:<DEFAULT>:com.javacodegeeks.examples.junitmavenexample.Calculator@equalIntegers(int,int):37:result |==> false

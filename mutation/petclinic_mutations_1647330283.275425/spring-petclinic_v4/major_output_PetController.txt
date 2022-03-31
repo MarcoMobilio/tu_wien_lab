@@ -1,0 +1,216 @@
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:18: error: package org.springframework.stereotype does not exist
+import org.springframework.stereotype.Controller;
+                                     ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:19: error: package org.springframework.ui does not exist
+import org.springframework.ui.ModelMap;
+                             ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:20: error: package org.springframework.util does not exist
+import org.springframework.util.StringUtils;
+                               ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:21: error: package org.springframework.validation does not exist
+import org.springframework.validation.BindingResult;
+                                     ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:22: error: package org.springframework.web.bind does not exist
+import org.springframework.web.bind.WebDataBinder;
+                                   ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:23: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.*;
+^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:25: error: package javax.validation does not exist
+import javax.validation.Valid;
+                       ^
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:33: error: cannot find symbol
+@Controller
+ ^
+  symbol: class Controller
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:34: error: cannot find symbol
+@RequestMapping("/owners/{ownerId}")
+ ^
+  symbol: class RequestMapping
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:39: error: cannot find symbol
+	private final OwnerRepository owners;
+	              ^
+  symbol:   class OwnerRepository
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:41: error: cannot find symbol
+	public PetController(OwnerRepository owners) {
+	                     ^
+  symbol:   class OwnerRepository
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:46: error: cannot find symbol
+	public Collection<PetType> populatePetTypes() {
+	                  ^
+  symbol:   class PetType
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:51: error: cannot find symbol
+	public Owner findOwner(@PathVariable("ownerId") int ownerId) {
+	       ^
+  symbol:   class Owner
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:56: error: cannot find symbol
+	public void initOwnerBinder(WebDataBinder dataBinder) {
+	                            ^
+  symbol:   class WebDataBinder
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:61: error: cannot find symbol
+	public void initPetBinder(WebDataBinder dataBinder) {
+	                          ^
+  symbol:   class WebDataBinder
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:66: error: cannot find symbol
+	public String initCreationForm(Owner owner, ModelMap model) {
+	                               ^
+  symbol:   class Owner
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:66: error: cannot find symbol
+	public String initCreationForm(Owner owner, ModelMap model) {
+	                                            ^
+  symbol:   class ModelMap
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:74: error: cannot find symbol
+	public String processCreationForm(Owner owner, @Valid Pet pet, BindingResult result, ModelMap model) {
+	                                  ^
+  symbol:   class Owner
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:74: error: cannot find symbol
+	public String processCreationForm(Owner owner, @Valid Pet pet, BindingResult result, ModelMap model) {
+	                                                      ^
+  symbol:   class Pet
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:74: error: cannot find symbol
+	public String processCreationForm(Owner owner, @Valid Pet pet, BindingResult result, ModelMap model) {
+	                                                               ^
+  symbol:   class BindingResult
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:74: error: cannot find symbol
+	public String processCreationForm(Owner owner, @Valid Pet pet, BindingResult result, ModelMap model) {
+	                                                                                     ^
+  symbol:   class ModelMap
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:90: error: cannot find symbol
+	public String initUpdateForm(Owner owner, @PathVariable("petId") int petId, ModelMap model) {
+	                             ^
+  symbol:   class Owner
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:90: error: cannot find symbol
+	public String initUpdateForm(Owner owner, @PathVariable("petId") int petId, ModelMap model) {
+	                                                                            ^
+  symbol:   class ModelMap
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:97: error: cannot find symbol
+	public String processUpdateForm(@Valid Pet pet, BindingResult result, Owner owner, ModelMap model) {
+	                                       ^
+  symbol:   class Pet
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:97: error: cannot find symbol
+	public String processUpdateForm(@Valid Pet pet, BindingResult result, Owner owner, ModelMap model) {
+	                                                ^
+  symbol:   class BindingResult
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:97: error: cannot find symbol
+	public String processUpdateForm(@Valid Pet pet, BindingResult result, Owner owner, ModelMap model) {
+	                                                                      ^
+  symbol:   class Owner
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:97: error: cannot find symbol
+	public String processUpdateForm(@Valid Pet pet, BindingResult result, Owner owner, ModelMap model) {
+	                                                                                   ^
+  symbol:   class ModelMap
+  location: class PetController
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:45: error: cannot find symbol
+	@ModelAttribute("types")
+	 ^
+  symbol:   class ModelAttribute
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:51: error: cannot find symbol
+	public Owner findOwner(@PathVariable("ownerId") int ownerId) {
+	                        ^
+  symbol:   class PathVariable
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:50: error: cannot find symbol
+	@ModelAttribute("owner")
+	 ^
+  symbol:   class ModelAttribute
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:55: error: cannot find symbol
+	@InitBinder("owner")
+	 ^
+  symbol:   class InitBinder
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:60: error: cannot find symbol
+	@InitBinder("pet")
+	 ^
+  symbol:   class InitBinder
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:65: error: cannot find symbol
+	@GetMapping("/pets/new")
+	 ^
+  symbol:   class GetMapping
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:74: error: cannot find symbol
+	public String processCreationForm(Owner owner, @Valid Pet pet, BindingResult result, ModelMap model) {
+	                                                ^
+  symbol:   class Valid
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:73: error: cannot find symbol
+	@PostMapping("/pets/new")
+	 ^
+  symbol:   class PostMapping
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:90: error: cannot find symbol
+	public String initUpdateForm(Owner owner, @PathVariable("petId") int petId, ModelMap model) {
+	                                           ^
+  symbol:   class PathVariable
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:89: error: cannot find symbol
+	@GetMapping("/pets/{petId}/edit")
+	 ^
+  symbol:   class GetMapping
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:97: error: cannot find symbol
+	public String processUpdateForm(@Valid Pet pet, BindingResult result, Owner owner, ModelMap model) {
+	                                 ^
+  symbol:   class Valid
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:96: error: cannot find symbol
+	@PostMapping("/pets/{petId}/edit")
+	 ^
+  symbol:   class PostMapping
+  location: class PetController
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:62: error: cannot find symbol
+		dataBinder.setValidator(new PetValidator());
+		                            ^
+  symbol:   class PetValidator
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:67: error: cannot find symbol
+		Pet pet = new Pet();
+		^
+  symbol:   class Pet
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:67: error: cannot find symbol
+		Pet pet = new Pet();
+		              ^
+  symbol:   class Pet
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:75: error: cannot find symbol
+		if (StringUtils.hasLength(pet.getName()) && pet.isNew() && owner.getPet(pet.getName(), true) != null) {
+		    ^
+  symbol:   variable StringUtils
+  location: class PetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/PetController.java:91: error: cannot find symbol
+		Pet pet = owner.getPet(petId);
+		^
+  symbol:   class Pet
+  location: class PetController

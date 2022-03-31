@@ -1,0 +1,94 @@
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:18: error: package org.springframework.cache.annotation does not exist
+import org.springframework.cache.annotation.Cacheable;
+                                           ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:19: error: package org.springframework.dao does not exist
+import org.springframework.dao.DataAccessException;
+                              ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:20: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Page;
+                                      ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:21: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Pageable;
+                                      ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:22: error: package org.springframework.data.repository does not exist
+import org.springframework.data.repository.Repository;
+                                          ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:23: error: package org.springframework.transaction.annotation does not exist
+import org.springframework.transaction.annotation.Transactional;
+                                                 ^
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:38: error: cannot find symbol
+public interface VetRepository extends Repository<Vet, Integer> {
+                                       ^
+  symbol: class Repository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:38: error: cannot find symbol
+public interface VetRepository extends Repository<Vet, Integer> {
+                                                  ^
+  symbol: class Vet
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:46: error: cannot find symbol
+	Collection<Vet> findAll() throws DataAccessException;
+	           ^
+  symbol:   class Vet
+  location: interface VetRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:46: error: cannot find symbol
+	Collection<Vet> findAll() throws DataAccessException;
+	                                 ^
+  symbol:   class DataAccessException
+  location: interface VetRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:56: error: cannot find symbol
+	Page<Vet> findAll(Pageable pageable) throws DataAccessException;
+	                  ^
+  symbol:   class Pageable
+  location: interface VetRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:56: error: cannot find symbol
+	Page<Vet> findAll(Pageable pageable) throws DataAccessException;
+	^
+  symbol:   class Page
+  location: interface VetRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:56: error: cannot find symbol
+	Page<Vet> findAll(Pageable pageable) throws DataAccessException;
+	     ^
+  symbol:   class Vet
+  location: interface VetRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:56: error: cannot find symbol
+	Page<Vet> findAll(Pageable pageable) throws DataAccessException;
+	                                            ^
+  symbol:   class DataAccessException
+  location: interface VetRepository
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:44: error: cannot find symbol
+	@Transactional(readOnly = true)
+	 ^
+  symbol:   class Transactional
+  location: interface VetRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:45: error: cannot find symbol
+	@Cacheable("vets")
+	 ^
+  symbol:   class Cacheable
+  location: interface VetRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:54: error: cannot find symbol
+	@Transactional(readOnly = true)
+	 ^
+  symbol:   class Transactional
+  location: interface VetRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetRepository.java:55: error: cannot find symbol
+	@Cacheable("vets")
+	 ^
+  symbol:   class Cacheable
+  location: interface VetRepository
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+#Generated Mutants: 0 (13 ms)
+18 errors
+10 warnings

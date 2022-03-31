@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+Namespace: junit-test-namespace
+metadata:     # Deployment metadata
+  name: maven-junit-test-deployment  # Name of the deployment
+  labels:
+     app: junit-test  # Declaring the deployments labels.
+spec:
+  replicas: 3  # Declaring the number of Pods required
+  selector:
+    matchLabels:
+      app: junit-test # Pods will be launched if matches deployment Label.
+  template:
+    metadata:
+      labels:
+        app: junit-test # Labels of the Pods.
+    spec:
+      containers:
+      - name: junit-test
+        image: maven-test:latest
+        imagePullPolicy: Never
+        restartPolicy: Never

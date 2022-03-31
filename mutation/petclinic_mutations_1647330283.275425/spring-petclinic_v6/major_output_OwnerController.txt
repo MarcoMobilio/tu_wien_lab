@@ -1,0 +1,276 @@
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:21: error: package javax.validation does not exist
+import javax.validation.Valid;
+                       ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:23: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Page;
+                                      ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:24: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.PageRequest;
+                                      ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:25: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Pageable;
+                                      ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:26: error: package org.springframework.stereotype does not exist
+import org.springframework.stereotype.Controller;
+                                     ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:27: error: package org.springframework.ui does not exist
+import org.springframework.ui.Model;
+                             ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:28: error: package org.springframework.validation does not exist
+import org.springframework.validation.BindingResult;
+                                     ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:29: error: package org.springframework.web.bind does not exist
+import org.springframework.web.bind.WebDataBinder;
+                                   ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:30: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.GetMapping;
+                                              ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:31: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.InitBinder;
+                                              ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:32: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.PathVariable;
+                                              ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:33: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.PostMapping;
+                                              ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:34: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.RequestParam;
+                                              ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:35: error: package org.springframework.web.servlet does not exist
+import org.springframework.web.servlet.ModelAndView;
+                                      ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:43: error: cannot find symbol
+@Controller
+ ^
+  symbol: class Controller
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:48: error: cannot find symbol
+	private final OwnerRepository owners;
+	              ^
+  symbol:   class OwnerRepository
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:50: error: cannot find symbol
+	public OwnerController(OwnerRepository clinicService) {
+	                       ^
+  symbol:   class OwnerRepository
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:55: error: cannot find symbol
+	public void setAllowedFields(WebDataBinder dataBinder) {
+	                             ^
+  symbol:   class WebDataBinder
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:67: error: cannot find symbol
+	public String processCreationForm(@Valid Owner owner, BindingResult result) {
+	                                         ^
+  symbol:   class Owner
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:67: error: cannot find symbol
+	public String processCreationForm(@Valid Owner owner, BindingResult result) {
+	                                                      ^
+  symbol:   class BindingResult
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:84: error: cannot find symbol
+	public String processFindForm(@RequestParam(defaultValue = "1") int page, Owner owner, BindingResult result,
+	                                                                          ^
+  symbol:   class Owner
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:84: error: cannot find symbol
+	public String processFindForm(@RequestParam(defaultValue = "1") int page, Owner owner, BindingResult result,
+	                                                                                       ^
+  symbol:   class BindingResult
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:85: error: cannot find symbol
+			Model model) {
+			^
+  symbol:   class Model
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:112: error: cannot find symbol
+	private String addPaginationModel(int page, Model model, String lastName, Page<Owner> paginated) {
+	                                            ^
+  symbol:   class Model
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:112: error: cannot find symbol
+	private String addPaginationModel(int page, Model model, String lastName, Page<Owner> paginated) {
+	                                                                          ^
+  symbol:   class Page
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:112: error: cannot find symbol
+	private String addPaginationModel(int page, Model model, String lastName, Page<Owner> paginated) {
+	                                                                               ^
+  symbol:   class Owner
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:122: error: cannot find symbol
+	private Page<Owner> findPaginatedForOwnersLastName(int page, String lastname) {
+	        ^
+  symbol:   class Page
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:122: error: cannot find symbol
+	private Page<Owner> findPaginatedForOwnersLastName(int page, String lastname) {
+	             ^
+  symbol:   class Owner
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:131: error: cannot find symbol
+	public String initUpdateOwnerForm(@PathVariable("ownerId") int ownerId, Model model) {
+	                                                                        ^
+  symbol:   class Model
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:138: error: cannot find symbol
+	public String processUpdateOwnerForm(@Valid Owner owner, BindingResult result,
+	                                            ^
+  symbol:   class Owner
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:138: error: cannot find symbol
+	public String processUpdateOwnerForm(@Valid Owner owner, BindingResult result,
+	                                                         ^
+  symbol:   class BindingResult
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:156: error: cannot find symbol
+	public ModelAndView showOwner(@PathVariable("ownerId") int ownerId) {
+	       ^
+  symbol:   class ModelAndView
+  location: class OwnerController
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:54: error: cannot find symbol
+	@InitBinder
+	 ^
+  symbol:   class InitBinder
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:59: error: cannot find symbol
+	@GetMapping("/owners/new")
+	 ^
+  symbol:   class GetMapping
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:67: error: cannot find symbol
+	public String processCreationForm(@Valid Owner owner, BindingResult result) {
+	                                   ^
+  symbol:   class Valid
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:66: error: cannot find symbol
+	@PostMapping("/owners/new")
+	 ^
+  symbol:   class PostMapping
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:77: error: cannot find symbol
+	@GetMapping("/owners/find")
+	 ^
+  symbol:   class GetMapping
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:84: error: cannot find symbol
+	public String processFindForm(@RequestParam(defaultValue = "1") int page, Owner owner, BindingResult result,
+	                               ^
+  symbol:   class RequestParam
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:83: error: cannot find symbol
+	@GetMapping("/owners")
+	 ^
+  symbol:   class GetMapping
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:131: error: cannot find symbol
+	public String initUpdateOwnerForm(@PathVariable("ownerId") int ownerId, Model model) {
+	                                   ^
+  symbol:   class PathVariable
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:130: error: cannot find symbol
+	@GetMapping("/owners/{ownerId}/edit")
+	 ^
+  symbol:   class GetMapping
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:138: error: cannot find symbol
+	public String processUpdateOwnerForm(@Valid Owner owner, BindingResult result,
+	                                      ^
+  symbol:   class Valid
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:139: error: cannot find symbol
+			@PathVariable("ownerId") int ownerId) {
+			 ^
+  symbol:   class PathVariable
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:137: error: cannot find symbol
+	@PostMapping("/owners/{ownerId}/edit")
+	 ^
+  symbol:   class PostMapping
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:156: error: cannot find symbol
+	public ModelAndView showOwner(@PathVariable("ownerId") int ownerId) {
+	                               ^
+  symbol:   class PathVariable
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:155: error: cannot find symbol
+	@GetMapping("/owners/{ownerId}")
+	 ^
+  symbol:   class GetMapping
+  location: class OwnerController
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:61: error: cannot find symbol
+		Owner owner = new Owner();
+		^
+  symbol:   class Owner
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:61: error: cannot find symbol
+		Owner owner = new Owner();
+		                  ^
+  symbol:   class Owner
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:79: error: cannot find symbol
+		model.put("owner", new Owner());
+		                       ^
+  symbol:   class Owner
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:94: error: cannot find symbol
+		Page<Owner> ownersResults = findPaginatedForOwnersLastName(page, lastName);
+		^
+  symbol:   class Page
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:94: error: cannot find symbol
+		Page<Owner> ownersResults = findPaginatedForOwnersLastName(page, lastName);
+		     ^
+  symbol:   class Owner
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:114: error: cannot find symbol
+		List<Owner> listOwners = paginated.getContent();
+		     ^
+  symbol:   class Owner
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:125: error: cannot find symbol
+		Pageable pageable = PageRequest.of(page - 1, pageSize);
+		^
+  symbol:   class Pageable
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:125: error: cannot find symbol
+		Pageable pageable = PageRequest.of(page - 1, pageSize);
+		                    ^
+  symbol:   variable PageRequest
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:132: error: cannot find symbol
+		Owner owner = this.owners.findById(ownerId);
+		^
+  symbol:   class Owner
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:157: error: cannot find symbol
+		ModelAndView mav = new ModelAndView("owners/ownerDetails");
+		^
+  symbol:   class ModelAndView
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:157: error: cannot find symbol
+		ModelAndView mav = new ModelAndView("owners/ownerDetails");
+		                       ^
+  symbol:   class ModelAndView
+  location: class OwnerController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerController.java:158: error: cannot find symbol
+		Owner owner = this.owners.findById(ownerId);
+		^
+  symbol:   class Owner
+  location: class OwnerController

@@ -1,0 +1,148 @@
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:20: error: package javax.validation does not exist
+import javax.validation.Valid;
+                       ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:22: error: package org.springframework.stereotype does not exist
+import org.springframework.stereotype.Controller;
+                                     ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:23: error: package org.springframework.validation does not exist
+import org.springframework.validation.BindingResult;
+                                     ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:24: error: package org.springframework.web.bind does not exist
+import org.springframework.web.bind.WebDataBinder;
+                                   ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:25: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.GetMapping;
+                                              ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:26: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.InitBinder;
+                                              ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:27: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.ModelAttribute;
+                                              ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:28: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.PathVariable;
+                                              ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:29: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.PostMapping;
+                                              ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:38: error: cannot find symbol
+@Controller
+ ^
+  symbol: class Controller
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:41: error: cannot find symbol
+	private final OwnerRepository owners;
+	              ^
+  symbol:   class OwnerRepository
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:43: error: cannot find symbol
+	public VisitController(OwnerRepository owners) {
+	                       ^
+  symbol:   class OwnerRepository
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:48: error: cannot find symbol
+	public void setAllowedFields(WebDataBinder dataBinder) {
+	                             ^
+  symbol:   class WebDataBinder
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:60: error: cannot find symbol
+	public Visit loadPetWithVisit(@PathVariable("ownerId") int ownerId, @PathVariable("petId") int petId,
+	       ^
+  symbol:   class Visit
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:81: error: cannot find symbol
+	public String processNewVisitForm(@ModelAttribute Owner owner, @PathVariable int petId, @Valid Visit visit,
+	                                                  ^
+  symbol:   class Owner
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:81: error: cannot find symbol
+	public String processNewVisitForm(@ModelAttribute Owner owner, @PathVariable int petId, @Valid Visit visit,
+	                                                                                               ^
+  symbol:   class Visit
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:82: error: cannot find symbol
+			BindingResult result) {
+			^
+  symbol:   class BindingResult
+  location: class VisitController
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Map.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:47: error: cannot find symbol
+	@InitBinder
+	 ^
+  symbol:   class InitBinder
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:60: error: cannot find symbol
+	public Visit loadPetWithVisit(@PathVariable("ownerId") int ownerId, @PathVariable("petId") int petId,
+	                               ^
+  symbol:   class PathVariable
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:60: error: cannot find symbol
+	public Visit loadPetWithVisit(@PathVariable("ownerId") int ownerId, @PathVariable("petId") int petId,
+	                                                                     ^
+  symbol:   class PathVariable
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:59: error: cannot find symbol
+	@ModelAttribute("visit")
+	 ^
+  symbol:   class ModelAttribute
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:74: error: cannot find symbol
+	public String initNewVisitForm(@PathVariable("petId") int petId, Map<String, Object> model) {
+	                                ^
+  symbol:   class PathVariable
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:73: error: cannot find symbol
+	@GetMapping("/owners/{ownerId}/pets/{petId}/visits/new")
+	 ^
+  symbol:   class GetMapping
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:81: error: cannot find symbol
+	public String processNewVisitForm(@ModelAttribute Owner owner, @PathVariable int petId, @Valid Visit visit,
+	                                   ^
+  symbol:   class ModelAttribute
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:81: error: cannot find symbol
+	public String processNewVisitForm(@ModelAttribute Owner owner, @PathVariable int petId, @Valid Visit visit,
+	                                                                ^
+  symbol:   class PathVariable
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:81: error: cannot find symbol
+	public String processNewVisitForm(@ModelAttribute Owner owner, @PathVariable int petId, @Valid Visit visit,
+	                                                                                         ^
+  symbol:   class Valid
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:80: error: cannot find symbol
+	@PostMapping("/owners/{ownerId}/pets/{petId}/visits/new")
+	 ^
+  symbol:   class PostMapping
+  location: class VisitController
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:62: error: cannot find symbol
+		Owner owner = this.owners.findById(ownerId);
+		^
+  symbol:   class Owner
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:63: error: cannot find symbol
+		Pet pet = owner.getPet(petId);
+		^
+  symbol:   class Pet
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:66: error: cannot find symbol
+		Visit visit = new Visit();
+		^
+  symbol:   class Visit
+  location: class VisitController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/VisitController.java:66: error: cannot find symbol
+		Visit visit = new Visit();
+		                  ^
+  symbol:   class Visit
+  location: class VisitController

@@ -1,0 +1,3 @@
+1:EVR:<IDENTIFIER(java.lang.Integer)>:<DEFAULT>:org.springframework.samples.petclinic.model.BaseEntity@getId():40:id |==> null
+2:STD:<ASSIGN>:<NO-OP>:org.springframework.samples.petclinic.model.BaseEntity@setId(java.lang.Integer):44:this.id = id |==> <NO-OP>
+3:ROR:==(java.lang.Object,java.lang.Object):FALSE(java.lang.Object,java.lang.Object):org.springframework.samples.petclinic.model.BaseEntity@isNew():48:this.id == null |==> false

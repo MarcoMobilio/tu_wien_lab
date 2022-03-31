@@ -1,0 +1,138 @@
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/time/LocalDate.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedHashSet.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:23: error: package javax.persistence does not exist
+import javax.persistence.CascadeType;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:24: error: package javax.persistence does not exist
+import javax.persistence.Column;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:25: error: package javax.persistence does not exist
+import javax.persistence.Entity;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:26: error: package javax.persistence does not exist
+import javax.persistence.FetchType;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:27: error: package javax.persistence does not exist
+import javax.persistence.JoinColumn;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:28: error: package javax.persistence does not exist
+import javax.persistence.ManyToOne;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:29: error: package javax.persistence does not exist
+import javax.persistence.OneToMany;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:30: error: package javax.persistence does not exist
+import javax.persistence.OrderBy;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:31: error: package javax.persistence does not exist
+import javax.persistence.Table;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:33: error: package org.springframework.format.annotation does not exist
+import org.springframework.format.annotation.DateTimeFormat;
+                                            ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:34: error: package org.springframework.samples.petclinic.model does not exist
+import org.springframework.samples.petclinic.model.NamedEntity;
+                                                  ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:45: error: cannot find symbol
+public class Pet extends NamedEntity {
+                         ^
+  symbol: class NamedEntity
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:43: error: cannot find symbol
+@Entity
+ ^
+  symbol: class Entity
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:44: error: cannot find symbol
+@Table(name = "pets")
+ ^
+  symbol: class Table
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:53: error: cannot find symbol
+	private PetType type;
+	        ^
+  symbol:   class PetType
+  location: class Pet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:58: error: cannot find symbol
+	private Set<Visit> visits = new LinkedHashSet<>();
+	            ^
+  symbol:   class Visit
+  location: class Pet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:68: error: cannot find symbol
+	public PetType getType() {
+	       ^
+  symbol:   class PetType
+  location: class Pet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:72: error: cannot find symbol
+	public void setType(PetType type) {
+	                    ^
+  symbol:   class PetType
+  location: class Pet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:76: error: cannot find symbol
+	public Collection<Visit> getVisits() {
+	                  ^
+  symbol:   class Visit
+  location: class Pet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:80: error: cannot find symbol
+	public void addVisit(Visit visit) {
+	                     ^
+  symbol:   class Visit
+  location: class Pet
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/time/LocalDate.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Collection.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/LinkedHashSet.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/Set.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:47: error: cannot find symbol
+	@Column(name = "birth_date")
+	 ^
+  symbol:   class Column
+  location: class Pet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:48: error: cannot find symbol
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
+	 ^
+  symbol:   class DateTimeFormat
+  location: class Pet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:51: error: cannot find symbol
+	@ManyToOne
+	 ^
+  symbol:   class ManyToOne
+  location: class Pet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:52: error: cannot find symbol
+	@JoinColumn(name = "type_id")
+	 ^
+  symbol:   class JoinColumn
+  location: class Pet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:55: error: cannot find symbol
+	@OneToMany(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
+	 ^
+  symbol:   class OneToMany
+  location: class Pet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:56: error: cannot find symbol
+	@JoinColumn(name = "pet_id")
+	 ^
+  symbol:   class JoinColumn
+  location: class Pet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:57: error: cannot find symbol
+	@OrderBy("visit_date ASC")
+	 ^
+  symbol:   class OrderBy
+  location: class Pet
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Pet.java:58: error: unexpected type
+	private Set<Visit> visits = new LinkedHashSet<>();
+	                                             ^
+  required: class
+  found:    <E>LinkedHashSet<E>
+  where E is a type-variable:
+    E extends Object declared in class LinkedHashSet
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Iterable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'

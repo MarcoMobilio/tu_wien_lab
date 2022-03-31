@@ -1,0 +1,54 @@
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/time/LocalDate.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Visit.java:20: error: package javax.persistence does not exist
+import javax.persistence.Column;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Visit.java:21: error: package javax.persistence does not exist
+import javax.persistence.Entity;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Visit.java:22: error: package javax.persistence does not exist
+import javax.persistence.Table;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Visit.java:23: error: package javax.validation.constraints does not exist
+import javax.validation.constraints.NotEmpty;
+                                   ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Visit.java:25: error: package org.springframework.format.annotation does not exist
+import org.springframework.format.annotation.DateTimeFormat;
+                                            ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Visit.java:26: error: package org.springframework.samples.petclinic.model does not exist
+import org.springframework.samples.petclinic.model.BaseEntity;
+                                                  ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Visit.java:36: error: cannot find symbol
+public class Visit extends BaseEntity {
+                           ^
+  symbol: class BaseEntity
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Visit.java:34: error: cannot find symbol
+@Entity
+ ^
+  symbol: class Entity
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Visit.java:35: error: cannot find symbol
+@Table(name = "visits")
+ ^
+  symbol: class Table
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/time/LocalDate.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Visit.java:38: error: cannot find symbol
+	@Column(name = "visit_date")
+	 ^
+  symbol:   class Column
+  location: class Visit
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Visit.java:39: error: cannot find symbol
+	@DateTimeFormat(pattern = "yyyy-MM-dd")
+	 ^
+  symbol:   class DateTimeFormat
+  location: class Visit
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/Visit.java:42: error: cannot find symbol
+	@NotEmpty
+	 ^
+  symbol:   class NotEmpty
+  location: class Visit

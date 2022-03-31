@@ -1,0 +1,50 @@
+- name: Ansible k8s module example
+# Creating the namespace in the kubernete cluster
+  hosts: k1
+# Defining the remote server where the k8 module will manage the objects
+  remote_user: ubuntu   # Using Remote user as ubuntu
+  tasks:
+    - name: Create a k8s namespace
+      k8s:
+        name: junit-test-namespace # defining the namespace
+        api_version: v1
+        kind: Namespace
+        state: present    # State=present when you need to create new object
+
+# Copying the Pod.yaml and deployment.yaml in the remote node which will be further used to create the pods and deployment in the kubernetes cluster
+
+    # - name: copying file with playbook
+    #   copy:
+    #     src: pod.yaml
+    #     dest: /tmp/pod.yaml
+
+    - name: copying file with playbook
+      copy:
+        src: deployment.yaml
+        dest: /tmp/deployment.yaml
+
+# Creating a Kubernetes pod in ata-namespace using file stored locally
+
+    # - name: Create a pod
+    #   k8s:
+    #     state: present      # State=present when you need to create new object
+    #     namespace: junit-test-namespace  # defining the namespace
+    #     src: /tmp/pod.yaml
+
+# # Checking the a Kubernetes pods in the ata-namespace
+
+#     - name: Get an existing Pods in the kubernetes cluster
+#       k8s:
+#         api_version: v1
+#         kind: pod
+#         name: junit-test
+#         namespace: junit-test-namespace  # defining the namespace
+#       #register: maven-test
+
+# Creating a Kubernetes deployment in ata-namespace using file stored locally
+
+    - name: Create a deployment
+      k8s:
+        state: present            # State=present when you need to create new object
+        namespace: junit-test-namespace  # defining the namespace
+        src: /tmp/deployment.yaml  # Source file location

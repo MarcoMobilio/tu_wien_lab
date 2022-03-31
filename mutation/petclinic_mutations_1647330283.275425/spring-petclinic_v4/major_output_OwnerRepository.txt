@@ -1,0 +1,139 @@
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:20: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Page;
+                                      ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:21: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Pageable;
+                                      ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:22: error: package org.springframework.data.jpa.repository does not exist
+import org.springframework.data.jpa.repository.Query;
+                                              ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:23: error: package org.springframework.data.repository does not exist
+import org.springframework.data.repository.Repository;
+                                          ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:24: error: package org.springframework.data.repository.query does not exist
+import org.springframework.data.repository.query.Param;
+                                                ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:25: error: package org.springframework.transaction.annotation does not exist
+import org.springframework.transaction.annotation.Transactional;
+                                                 ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:38: error: cannot find symbol
+public interface OwnerRepository extends Repository<Owner, Integer> {
+                                         ^
+  symbol: class Repository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:38: error: cannot find symbol
+public interface OwnerRepository extends Repository<Owner, Integer> {
+                                                    ^
+  symbol: class Owner
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:46: error: cannot find symbol
+	List<PetType> findPetTypes();
+	     ^
+  symbol:   class PetType
+  location: interface OwnerRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:58: error: cannot find symbol
+	Page<Owner> findByLastName(@Param("lastName") String lastName, Pageable pageable);
+	                                                               ^
+  symbol:   class Pageable
+  location: interface OwnerRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:58: error: cannot find symbol
+	Page<Owner> findByLastName(@Param("lastName") String lastName, Pageable pageable);
+	^
+  symbol:   class Page
+  location: interface OwnerRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:58: error: cannot find symbol
+	Page<Owner> findByLastName(@Param("lastName") String lastName, Pageable pageable);
+	     ^
+  symbol:   class Owner
+  location: interface OwnerRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:67: error: cannot find symbol
+	Owner findById(@Param("id") Integer id);
+	^
+  symbol:   class Owner
+  location: interface OwnerRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:73: error: cannot find symbol
+	void save(Owner owner);
+	          ^
+  symbol:   class Owner
+  location: interface OwnerRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:80: error: cannot find symbol
+	Page<Owner> findAll(Pageable pageable);
+	                    ^
+  symbol:   class Pageable
+  location: interface OwnerRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:80: error: cannot find symbol
+	Page<Owner> findAll(Pageable pageable);
+	^
+  symbol:   class Page
+  location: interface OwnerRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:80: error: cannot find symbol
+	Page<Owner> findAll(Pageable pageable);
+	     ^
+  symbol:   class Owner
+  location: interface OwnerRepository
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Integer.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:44: error: cannot find symbol
+	@Query("SELECT ptype FROM PetType ptype ORDER BY ptype.name")
+	 ^
+  symbol:   class Query
+  location: interface OwnerRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:45: error: cannot find symbol
+	@Transactional(readOnly = true)
+	 ^
+  symbol:   class Transactional
+  location: interface OwnerRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:58: error: cannot find symbol
+	Page<Owner> findByLastName(@Param("lastName") String lastName, Pageable pageable);
+	                            ^
+  symbol:   class Param
+  location: interface OwnerRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:56: error: cannot find symbol
+	@Query("SELECT DISTINCT owner FROM Owner owner left join  owner.pets WHERE owner.lastName LIKE :lastName% ")
+	 ^
+  symbol:   class Query
+  location: interface OwnerRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:57: error: cannot find symbol
+	@Transactional(readOnly = true)
+	 ^
+  symbol:   class Transactional
+  location: interface OwnerRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:67: error: cannot find symbol
+	Owner findById(@Param("id") Integer id);
+	                ^
+  symbol:   class Param
+  location: interface OwnerRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:65: error: cannot find symbol
+	@Query("SELECT owner FROM Owner owner left join fetch owner.pets WHERE owner.id =:id")
+	 ^
+  symbol:   class Query
+  location: interface OwnerRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:66: error: cannot find symbol
+	@Transactional(readOnly = true)
+	 ^
+  symbol:   class Transactional
+  location: interface OwnerRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:78: error: cannot find symbol
+	@Query("SELECT owner FROM Owner owner")
+	 ^
+  symbol:   class Query
+  location: interface OwnerRepository
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/owner/OwnerRepository.java:79: error: cannot find symbol
+	@Transactional(readOnly = true)
+	 ^
+  symbol:   class Transactional
+  location: interface OwnerRepository
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+#Generated Mutants: 0 (17 ms)
+27 errors
+10 warnings

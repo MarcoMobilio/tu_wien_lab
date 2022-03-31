@@ -1,0 +1,15 @@
+# pod.yaml template file that creates pod
+
+apiVersion: v1        # It is of type String
+kind: Pod             # It is of type String
+Namespace: junit-test-namespace
+metadata:             # It is of type Dictionary
+  name: junit-test
+  labels:
+    app: junit-test
+spec:                  # It is of type List and Array
+  containers:
+  - name: maven-test-container
+    image: maven-test:latest
+    imagePullPolicy: Never
+    restartPolicy: Never

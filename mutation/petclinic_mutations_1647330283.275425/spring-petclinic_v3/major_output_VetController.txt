@@ -1,0 +1,150 @@
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:20: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Page;
+                                      ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:21: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.PageRequest;
+                                      ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:22: error: package org.springframework.data.domain does not exist
+import org.springframework.data.domain.Pageable;
+                                      ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:23: error: package org.springframework.stereotype does not exist
+import org.springframework.stereotype.Controller;
+                                     ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:24: error: package org.springframework.ui does not exist
+import org.springframework.ui.Model;
+                             ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:25: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.GetMapping;
+                                              ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:26: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.RequestParam;
+                                              ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:27: error: package org.springframework.web.bind.annotation does not exist
+import org.springframework.web.bind.annotation.ResponseBody;
+                                              ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:35: error: cannot find symbol
+@Controller
+ ^
+  symbol: class Controller
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:38: error: cannot find symbol
+	private final VetRepository vets;
+	              ^
+  symbol:   class VetRepository
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:40: error: cannot find symbol
+	public VetController(VetRepository clinicService) {
+	                     ^
+  symbol:   class VetRepository
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:45: error: cannot find symbol
+	public String showVetList(@RequestParam(defaultValue = "1") int page, Model model) {
+	                                                                      ^
+  symbol:   class Model
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:55: error: cannot find symbol
+	private String addPaginationModel(int page, Page<Vet> paginated, Model model) {
+	                                            ^
+  symbol:   class Page
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:55: error: cannot find symbol
+	private String addPaginationModel(int page, Page<Vet> paginated, Model model) {
+	                                                 ^
+  symbol:   class Vet
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:55: error: cannot find symbol
+	private String addPaginationModel(int page, Page<Vet> paginated, Model model) {
+	                                                                 ^
+  symbol:   class Model
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:64: error: cannot find symbol
+	private Page<Vet> findPaginated(int page) {
+	        ^
+  symbol:   class Page
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:64: error: cannot find symbol
+	private Page<Vet> findPaginated(int page) {
+	             ^
+  symbol:   class Vet
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:71: error: cannot find symbol
+	public @ResponseBody Vets showResourcesVetList() {
+	                     ^
+  symbol:   class Vets
+  location: class VetController
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/util/List.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:45: error: cannot find symbol
+	public String showVetList(@RequestParam(defaultValue = "1") int page, Model model) {
+	                           ^
+  symbol:   class RequestParam
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:44: error: cannot find symbol
+	@GetMapping("/vets.html")
+	 ^
+  symbol:   class GetMapping
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:70: error: cannot find symbol
+	@GetMapping({ "/vets" })
+	 ^
+  symbol:   class GetMapping
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:71: error: cannot find symbol
+	public @ResponseBody Vets showResourcesVetList() {
+	        ^
+  symbol:   class ResponseBody
+  location: class VetController
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/AutoCloseable.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:48: error: cannot find symbol
+		Vets vets = new Vets();
+		^
+  symbol:   class Vets
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:48: error: cannot find symbol
+		Vets vets = new Vets();
+		                ^
+  symbol:   class Vets
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:49: error: cannot find symbol
+		Page<Vet> paginated = findPaginated(page);
+		^
+  symbol:   class Page
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:49: error: cannot find symbol
+		Page<Vet> paginated = findPaginated(page);
+		     ^
+  symbol:   class Vet
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:56: error: cannot find symbol
+		List<Vet> listVets = paginated.getContent();
+		     ^
+  symbol:   class Vet
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:66: error: cannot find symbol
+		Pageable pageable = PageRequest.of(page - 1, pageSize);
+		^
+  symbol:   class Pageable
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:66: error: cannot find symbol
+		Pageable pageable = PageRequest.of(page - 1, pageSize);
+		                    ^
+  symbol:   variable PageRequest
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:74: error: cannot find symbol
+		Vets vets = new Vets();
+		^
+  symbol:   class Vets
+  location: class VetController
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/vet/VetController.java:74: error: cannot find symbol
+		Vets vets = new Vets();
+		                ^
+  symbol:   class Vets
+  location: class VetController

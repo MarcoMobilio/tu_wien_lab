@@ -1,0 +1,43 @@
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/Object.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation': class file for jdk.Profile+Annotation not found
+warning: /Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): major version 52 is newer than 51, the highest major version supported by this compiler.
+  It is recommended that the compiler be upgraded.
+/Library/Java/JavaVirtualMachines/temurin-8.jdk/Contents/Home/lib/ct.sym(META-INF/sym/rt.jar/java/lang/String.class): warning: Cannot find annotation method 'value()' in type 'Profile+Annotation'
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Person.java:18: error: package javax.persistence does not exist
+import javax.persistence.Column;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Person.java:19: error: package javax.persistence does not exist
+import javax.persistence.MappedSuperclass;
+                        ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Person.java:20: error: package javax.validation.constraints does not exist
+import javax.validation.constraints.NotEmpty;
+                                   ^
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Person.java:28: error: cannot find symbol
+public class Person extends BaseEntity {
+                            ^
+  symbol: class BaseEntity
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Person.java:27: error: cannot find symbol
+@MappedSuperclass
+ ^
+  symbol: class MappedSuperclass
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Person.java:30: error: cannot find symbol
+	@Column(name = "first_name")
+	 ^
+  symbol:   class Column
+  location: class Person
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Person.java:31: error: cannot find symbol
+	@NotEmpty
+	 ^
+  symbol:   class NotEmpty
+  location: class Person
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Person.java:34: error: cannot find symbol
+	@Column(name = "last_name")
+	 ^
+  symbol:   class Column
+  location: class Person
+/Users/kralizec/University/mutation/spring-petclinic/src/main/java/org/springframework/samples/petclinic/model/Person.java:35: error: cannot find symbol
+	@NotEmpty
+	 ^
+  symbol:   class NotEmpty
+  location: class Person

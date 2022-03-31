@@ -1,0 +1,59 @@
+- hosts: k1
+  vars:
+    working_directory: "{{ ansible_user_dir }}/University/TU_Wien_LAB"
+    # working_directory: "{{ ansible_user_dir }}"
+    tmp_directory: "{{ansible_user_dir}}/tmp_directory"
+    #app_version: "junit-java-example-master"
+    #app_path: "{{working_directory}}"
+    app_name: "{{app_path | basename}}"
+    destination_dockerfile_path:  "{{ tmp_directory }}/{{app_name}}/Dockerfile"
+
+  tasks:
+    - name: create global test directory
+      file:
+        path: "{{ tmp_directory }}"
+        state: directory
+
+    - name: create app version directory
+      file:
+        path: "{{ tmp_directory }}/{{app_name}}"
+        state: directory
+    
+    - name: copy Dockerfile
+      copy:
+        src: "../Dockerfile"
+        dest: "{{destination_dockerfile_path}}"
+    - name: copy source code
+      copy:
+        src: "{{app_path}}/"
+        dest: "{{ tmp_directory }}/{{app_name}}/app/"
+
+    - name: build container image
+      docker_image:
+        name: "{{app_name}}:v1.0"
+        build:
+          path: "{{ tmp_directory }}/{{app_name}}"
+        source: build
+        state: present
+        force: yes
+
+
+    - name: Start container
+      docker_container:
+        name: "{{app_name}}"
+        image: "{{app_name}}:v1.0"
+        detach: no
+        cleanup: no
+        recreate: yes
+
+    - name: copy output log to localhost
+      shell: "docker cp {{app_name}}:/output.txt {{tmp_directory}}/{{app_name}}/{{app_name}}_output.txt"
+
+    - name: copy error log to localhost
+      shell: "docker cp {{app_name}}:/error.txt {{tmp_directory}}/{{app_name}}/{{app_name}}_error.txt"
+
+    # - name: remove all containers
+    #   shell: docker rm -f $(docker ps -a -q)
+
+    # - name: remove all images
+    #   shell: docker rmi $(docker images -a -q)
